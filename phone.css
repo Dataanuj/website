@@ -1,0 +1,219 @@
+/*header*/ 
+#header
+{
+  padding:10px 0px;
+  height:65px;
+}
+
+  
+  
+/*Hero section*/ 
+#hero marquee{
+  font-size:36px;
+margin-bottom:25px;
+}
+#hero marquee i{
+  color:rgba(0,255,0);
+}
+#hero{
+  padding:0px;
+  height:600px;
+  background-position:100%; 
+  
+     }
+
+#hero h2{
+  font-size:32px;
+  color:rgba(0,0,255);
+  padding-left:9px;
+  margin-top:85px; 
+        }
+
+#hero h1{
+  font-size: 35px;
+  padding-left:84px;
+  color:rgba(  255,0,0);
+  margin-top:20px;
+        }
+
+#hero button{
+  align-items:center;
+  padding: 0px;
+  margin:80px;
+  
+  margin-top:60px;
+  color:rgba(0,0,255);
+  border:solid black;
+  border-radius:25px;
+  font-size:40px;
+  transition:0.3s;
+  font-weight: 500;
+ }
+
+#hero button:hover{
+  color:black;
+}
+
+
+/*Hero section ends*/
+
+
+.section-p1{
+  padding:30px;
+}
+
+#product1{
+  background-color:black;
+  
+}
+
+#product1 h2{
+  font-size: 30px; 
+  margin:20px;
+  
+  
+}
+#product1 .pro-container{
+display:flex;
+
+
+
+}
+/* Product box ke beech me gap ise*/ 
+#product1 .pro{
+ width:100%;
+ margin:20px;
+ 
+ 
+}
+
+/* Footer starts*/
+footer .col h4{
+  color:black;
+}
+footer  .col i{
+  font-size: 45px;
+  margin:5px;
+}
+footer .copyright p{
+  padding-left:82px;
+  margin-top:15px;
+}
+
+footer .copyright{
+  color:blue;
+  
+  
+  
+}
+
+ /*Footer ends*/  
+
+#navbar{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+  
+  justify-content:flex-start;
+  position:fixed;
+  top:0px;
+  right:-200px;
+  height:100vh;
+  width:150px;
+  background-color: white;
+  box-shadow:0 40px 60px rgba(0,0,0,0.1); 
+  transition:0.3s;
+  
+}
+
+/*navigation*/
+#navbar.active {
+  right: 0px;
+}
+#navbar li{
+  top:80px;
+  margin-bottom:35px;
+  
+
+  
+}
+#navbar li a{
+  font-size: 28px; 
+}
+
+/* for mobile feature and cart */ 
+#mobile{
+  display:flex;
+  align-items: center;
+  padding:20px;
+}
+
+#mobile i{
+  color:black;
+  margin:0px;
+  padding-left:20px;
+  font-size: 30px;
+}
+
+/* feature close */   
+#close{
+  display:initial;
+  position:absolute;
+  top:12px;
+  left:95px;
+  color:#222;
+  font-size: 45px;
+}
+
+#lg-bag{
+  display:none;
+}
+
+
+
+
+#page-header{
+  padding:0px;
+ }
+
+#page-header h1{
+  padding-left:98px;
+  color:white;
+}
+
+
+
+/*search box of shop page*/
+.container{ 
+  display:flex;
+ }
+
+.container form i{
+   font-size:40px; 
+   margin-top:2px;
+   
+   }
+  
+
+.container form input{
+  margin-top:0; 
+  margin-bottom:2px;
+  font-size:15px;
+  height:40px;
+  border-radius:6px;
+  background:white;
+  box-shadow: 4px 4px 30px rgba(0,0,0,0.06) 
+}
+
+.container form{
+  width:100%;
+  border:none;
+  font-weight: 600;
+}
+
+
+/*price*/
+iframe{
+  margin:9px;
+}
